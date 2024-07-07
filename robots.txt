@@ -1,0 +1,86 @@
+# Block all AWS bots
+User-agent: *
+Disallow: /*.compute.amazonaws.com/*
+
+# Block all Google bots
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Googlebot-Mobile
+Disallow: /
+
+User-agent: googlebot-news
+Disallow: /
+
+User-agent: googlebot-video
+Disallow: /
+
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: AdsBot-Google-Mobile
+Disallow: /
+
+User-agent: Mediapartners-Google
+Disallow: /
+
+# Block AWS bots
+User-agent: *
+Disallow: /*.compute.amazonaws.com/*
+
+# Block Microsoft bots
+User-agent: msnbot
+Disallow: /
+
+User-agent: bingbot
+Disallow: /
+
+# Block other specified bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: AspiegelBot
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+# Block CenturyLink IP ranges
+User-agent: *
+Disallow: /
+
+# Block Google Cloud Platform IP ranges
+# Replace with actual IP ranges used by Google Cloud Platform bots
+Disallow: /*.googleusercontent.com/*
+
+# Block known bad bots and aggressive crawlers
+User-agent: *
+Disallow: /
+
+# Final catch-all block
+User-agent: *
+Disallow: /
